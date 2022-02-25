@@ -1,0 +1,146 @@
+/* Propriété global ======================================================== */
+
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 13px/25px Arial, Helvetica, sans-serif;
+    color: #484848;
+    min-width: 1080px;
+    font-style: italic;
+    background: #fff;
+}
+
+nav {
+    display: inline-block;
+    z-index: 1111;
+    position: relative;
+    float: right;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*********************************header*************************************/
+
+nav {
+    display: inline-block;
+    z-index: 1111;
+    position: relative;
+    float: right;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    width: 100%;
+    background: url(../img/header-bg.jpg) 0 0 repeat;
+    border-bottom: #fff 1px solid;
+}
+
+header>div {
+    width: 100%;
+    background: url(../img/header-bg-shadow.png) 0 bottom repeat-x;
+    padding-bottom: 17px;
+}
+
+header>div>div {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    display: inline-block;
+    z-index: 1111;
+    margin: 16px 0px 0 10px;
+    position: relative;
+    float: left;
+}
+
+.text-3a a {
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-3 span,
+.text-3a span {
+    color: #882d2d;
+}
+
+.clear {
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+    width: 100%;
+}
+
+ul.menu {
+    margin: 28px 10px 0px 0px;
+    display: inline-block;
+}
+
+ul.menu li {
+    float: left;
+    line-height: 30px;
+    margin: 0px 0px 0px 20px;
+}
+
+ul.menu li a {
+    font-size: 25px;
+    line-height: 30px;
+    color: #f2f2f2;
+    display: inline-block;
+}
+
+ul.menu li a:hover,
+ul.menu li.current a {
+    color: #882d2d;
+}
+
+
+/***************************** Article  ********************/
+
+.article {
+    margin: 16px 0px 0 10px;
+    text-align: center;
+}
+
+
+/***************************** Contact  ********************/
+
+.img_lgn {
+    float: right;
+    margin-right: 350px;
+    margin-top: 100px;
+}
+
+.contact {
+    background-color: whitesmoke;
+    width: 350px;
+    border: solid black 1px;
+    margin-left: 300px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 3px 5px 5px black;
+}
+
+
+/****************************footer************************/
+
+footer {
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 31px 0px 20px 0;
+}
+
+footer p {
+    float: left;
+    text-align: center;
+    width: 580px;
+}

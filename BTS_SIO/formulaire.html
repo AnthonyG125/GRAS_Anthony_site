@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
+<link rel="icon" href="img/icon_bts.png" type="image/png">
+
+<head>
+    <title>Accueil - Le BTS SIO</title>
+    <meta charset="UTF-8" />
+
+    <meta name="description" content="Le site internet du BTS SIO">
+
+    <meta name="keywords" content="internet, BTS SIO">
+
+    <meta name="robots" content="noindex, nofollow">
+</head>
+
+<body>
+    <!------  Menu navigation ------->
+    <header>
+        <div>
+            <div>
+                <h1 class="text-3a"><a href="/">Le BTS<span>-SIO</span></a></h1>
+                <nav>
+                    <ul class="menu">
+
+                        <!---- Accueil --->
+                        <li>
+                            <a href="index.html">
+                                <i class="fa fa-home fa-lg"></i>
+                                <span class="nav-text">Accueil</span>
+                            </a>
+                        </li>
+
+                        <!----------- Galerie ------>
+                        <li>
+                            <a href="galerie.html">
+                                <i class="fa fa-envelope-o fa-lg"></i>
+                                <span class="nav-text">Galerie</span>
+                            </a>
+                        </li>
+
+
+                        <!--------- Formulaire ------->
+                        <li>
+                            <a href="formulaire.html">
+                                <i class="fa fa-cutlery"></i>
+                                <span class="nav-text">Inscription</span>
+
+                            </a>
+
+                        </li>
+
+                        <!--------- Contact  ------->
+                        <li>
+                            <a href="contact.html">
+                                <i class="fa fa-info-circle " aria-hidden="true "></i>
+                                <span class="nav-text ">Contact</span>
+
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="clear "></div>
+            </div>
+        </div>
+    </header>
+
+    <!------ Formulaire ------->
+    <div class="article">
+
+        <h2>Inscription</h2>
+        <p>Remplissez le formulaire ci-dessous pour candidater.</p>
+        <form method="POST" action="resultat.php">
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" />
+
+            <label for="prenom">Prenom :</label>
+            <input type="text" name="prenom" />
+
+            <p><label for="dateN">Date :</label>
+                <input type="date" name="dateN" />
+
+                <label for="phone">Numéro de téléphone :</label>
+                <input type="tel" name="phone" maxlength="6" />
+            </p>
+
+
+            <label for="mail">Mail :</label>
+            <input type="email" name="mail" />
+            <br>
+
+            <label for="adresse">Adresse : </label>
+            <input type="text" name="adresse" />
+
+            <p>
+                <label for="ville"> Ville</label>
+                <input type="text" name="ville" />
+
+                <label for="CP"> Code postal :</label>
+                <input type="text" name="CP" pattern="[0-9]{5}" maxlength="5" />
+            </p>
+
+
+
+
+
+
+            <p><input type="submit" name="submit" value="Validez" /></p>
+        </form>
+    </div>
+
+
+
+
+
+
+    <!-------- Pied de page --------->
+    <footer>
+        <span>Suivez-nous :</span>
+        <a href="#"><img src="img/icon-1.jpg" alt="Twitter" title="Twitter"></a>
+        <a href="#"><img src="img/icon-2.jpg" alt="Facebook" title="Facebook"></a>
+        <a href="#"><img src="img/icon-3.jpg" alt="Google+" title="Google+"></a>
+
+
+    </footer>
+
+</body>
+
+</html>
