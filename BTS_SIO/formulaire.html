@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-
 <link rel="icon" href="img/icon_bts.png" type="image/png">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 <head>
     <title>Accueil - Le BTS SIO</title>
@@ -13,6 +17,8 @@
     <meta name="keywords" content="internet, BTS SIO">
 
     <meta name="robots" content="noindex, nofollow">
+
+
 </head>
 
 <body>
@@ -35,7 +41,7 @@
                         <!----------- Galerie ------>
                         <li>
                             <a href="galerie.html">
-                                <i class="fa fa-envelope-o fa-lg"></i>
+                                <i class="fa fa-picture-o" aria-hidden="true"></i>
                                 <span class="nav-text">Galerie</span>
                             </a>
                         </li>
@@ -44,7 +50,7 @@
                         <!--------- Formulaire ------->
                         <li>
                             <a href="formulaire.html">
-                                <i class="fa fa-cutlery"></i>
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
                                 <span class="nav-text">Inscription</span>
 
                             </a>
@@ -66,12 +72,21 @@
         </div>
     </header>
 
+
     <!------ Formulaire ------->
-    <div class="article">
+    <div class="inscription">
 
         <h2>Inscription</h2>
         <p>Remplissez le formulaire ci-dessous pour candidater.</p>
         <form method="POST" action="resultat.php">
+
+
+            <input type="radio" name="sex">
+            <label for="homme">Monsieur</label>
+            <input type="radio" name="sex">
+            <label for="homme">Madame</label>
+
+
             <label for="nom">Nom :</label>
             <input type="text" name="nom" />
 

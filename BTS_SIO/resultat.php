@@ -1,71 +1,77 @@
 <!DOCTYPE html>
-<html>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+<html lang="fr">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+<link rel="icon" href="img/icon_bts.png" type="image/png">
 
-    <link rel="icon" href="img/icon_bts.png" type="image/png">
 
-    <head>
-        
-        <title>Formulaire - Le BTS SIO</title>
-        <meta charset="UTF-8" />
 
-        <meta name="description" content="Le site internet du BTS SIO">
 
-        <meta name="keywords" content="internet, BTS SIO">
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-        <meta name="robots" content="noindex, nofollow">
-    </head>
+<head>
+    <title>Accueil - Le BTS SIO</title>
+    <meta charset="UTF-8" />
 
-    <body>
-        <!------  Menu navigation ------->
-        <header>
+    <meta name="description" content="Le site internet du BTS SIO">
+
+    <meta name="keywords" content="internet, BTS SIO">
+
+    <meta name="robots" content="noindex, nofollow">
+
+
+</head>
+
+<body>
+    <!------  Menu navigation ------->
+    <header>
+        <div>
             <div>
-                <div>
-                    <h1 class="text-3a"><a href="/">Le BTS<span>-SIO</span></a></h1>
-                    <nav>
-                        <ul class="menu">
+                <h1 class="text-3a"><a href="/">Le BTS<span>-SIO</span></a></h1>
+                <nav>
+                    <ul class="menu">
 
-                            <!---- Accueil --->
-                            <li>
-                                <a href="index.html">
-                                    <i class="fa fa-home fa-lg"></i>
-                                    <span class="nav-text">Accueil</span>
-                                </a>
-                            </li>
+                        <!---- Accueil --->
+                        <li>
+                            <a href="index.html">
+                                <i class="fa fa-home fa-lg"></i>
+                                <span class="nav-text">Accueil</span>
+                            </a>
+                        </li>
 
-                            <!----------- Galerie ------>
-                            <li>
-                                <a href="galerie.html">
-                                    <i class="fa fa-envelope-o fa-lg"></i>
-                                    <span class="nav-text">Galerie</span>
-                                </a>
-                            </li>
+                        <!----------- Galerie ------>
+                        <li>
+                            <a href="galerie.html">
+                                <i class="fa fa-picture-o" aria-hidden="true"></i>
+                                <span class="nav-text">Galerie</span>
+                            </a>
+                        </li>
 
 
-                            <!--------- Formulaire ------->
-                            <li>
-                                <a href="formulaire.html">
-                                    <i class="fa fa-cutlery"></i>
-                                    <span class="nav-text">Inscription</span>
+                        <!--------- Formulaire ------->
+                        <li>
+                            <a href="formulaire.html">
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
+                                <span class="nav-text">Inscription</span>
 
-                                </a>
+                            </a>
 
-                            </li>
+                        </li>
 
-                            <!--------- Contact  ------->
-                            <li>
-                                <a href="contact.html">
-                                    <i class="fa fa-info-circle " aria-hidden="true "></i>
-                                    <span class="nav-text ">Contact</span>
+                        <!--------- Contact  ------->
+                        <li>
+                            <a href="contact.html">
+                                <i class="fa fa-info-circle " aria-hidden="true "></i>
+                                <span class="nav-text ">Contact</span>
 
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="clear "></div>
-                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="clear "></div>
             </div>
-        </header>
+        </div>
+    </header>
+
 
         <!------ Résultat formulaire ------->
         <div class="article">

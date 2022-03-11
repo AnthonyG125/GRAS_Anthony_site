@@ -95,6 +95,7 @@ ul.menu li a {
     line-height: 30px;
     color: #f2f2f2;
     display: inline-block;
+    text-decoration: none;
 }
 
 ul.menu li a:hover,
@@ -108,6 +109,41 @@ ul.menu li.current a {
 .article {
     margin: 16px 0px 0 10px;
     text-align: center;
+}
+
+
+/****************************** Inscription ****************/
+
+.inscription {
+    margin: 16px 0px 0 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 700px;
+    border: solid black 1px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 5px 5px black;
+    border-radius: 30px 30px 30px 30px;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 1px 1px 2px #882d2d;
+}
+
+input[type=submit] {
+    width: 100px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 1px #882d2d;
+    cursor: pointer;
 }
 
 
@@ -127,6 +163,7 @@ ul.menu li.current a {
     margin-top: 50px;
     text-align: center;
     box-shadow: 3px 5px 5px black;
+    border-radius: 30px 30px 30px 30px;
 }
 
 
