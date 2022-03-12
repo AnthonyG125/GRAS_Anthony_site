@@ -6,7 +6,7 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" >
 
 <head>
     <title>Accueil - Le BTS SIO</title>
@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <!------  Menu navigation ------->
+    <!--Menu navigation -->
     <header>
         <div>
             <div>
@@ -30,7 +30,7 @@
                 <nav>
                     <ul class="menu">
 
-                        <!---- Accueil --->
+                        <!--Accueil -->
                         <li>
                             <a href="index.html">
                                 <i class="fa fa-home fa-lg"></i>
@@ -38,7 +38,7 @@
                             </a>
                         </li>
 
-                        <!----------- Galerie ------>
+                        <!--Galerie-->
                         <li>
                             <a href="galerie.html">
                                 <i class="fa fa-picture-o" aria-hidden="true"></i>
@@ -47,7 +47,7 @@
                         </li>
 
 
-                        <!--------- Formulaire ------->
+                        <!--Formulaire-->
                         <li>
                             <a href="formulaire.html">
                                 <i class="fa fa-file-text" aria-hidden="true"></i>
@@ -57,10 +57,10 @@
 
                         </li>
 
-                        <!--------- Contact  ------->
+                        <!-- Contact-->
                         <li>
                             <a href="contact.html">
-                                <i class="fa fa-info-circle " aria-hidden="true "></i>
+                                <i class="fa fa-info-circle "></i>
                                 <span class="nav-text ">Contact</span>
 
                             </a>
@@ -73,7 +73,7 @@
     </header>
 
 
-        <!------ Résultat formulaire ------->
+        <!-- Résultat formulaire -->
         <div class="article">
         <?php
 
